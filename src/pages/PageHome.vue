@@ -1,8 +1,10 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import Logo from '../components/Logo.vue';
+</script>
 
 <template>
   <div>
-    <h1 class="text-4xl text-center my-16">Peer-to-Peer Tic Tac Toe</h1>
+    <Logo :animateIn="true" />
   </div>
 </template>
 
